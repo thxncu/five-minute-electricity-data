@@ -1,0 +1,6 @@
+mission_code,mission,ambiguity_policy,window_minutes,eligible_decision_times,available_decision_times,unavailable_decision_times,data_service_reliability_pct,unavailable_share_pct,longest_unavailable_run_minutes,longest_run_start,longest_run_end,row_missing_share_pct,missingness_amplification_factor
+cadence_delivery,Cadence delivery,All observed records,5,210240,209323,917,99.56383181126331,0.4361681887366819,40,2025-05-29 22:25:00,2025-05-29 23:00:00,0.4361681887366853,0.9999999999999922
+cadence_delivery,Cadence delivery,All observed records,10,210239,208461,1778,99.15429582522748,0.8457041747725208,45,2025-05-29 22:25:00,2025-05-29 23:05:00,0.4361681887366853,1.9389405202199934
+cadence_delivery,Cadence delivery,All observed records,15,210238,207606,2632,98.74808550309649,1.2519144969035092,50,2025-05-29 22:25:00,2025-05-29 23:10:00,0.4361681887366853,2.870256312202745
+cadence_delivery,Cadence delivery,All observed records,30,210235,205079,5156,97.54750636192831,2.4524936380716817,135,2025-05-29 21:15:00,2025-05-29 23:25:00,0.4361681887366853,5.622816384603995
+cadence_delivery,Cadence delivery,All observed records,60,210229,200153,10076,95.20713127113767,4.792868728862336,165,2025-05-29 21:15:00,2025-05-29 23:55:00,0.4361681887366853,10.988579297230205

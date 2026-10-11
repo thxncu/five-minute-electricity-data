@@ -1,0 +1,16 @@
+test_case,expected_flags,observed_flags,test_passed,interpretation
+forecast_zero,forecast_domain,forecast_domain,True,Domain predicate routes a zero-valued planning value
+identity_offset_0.5_mw,none,none,True,Boundary test for the stated 1 MW tolerance
+identity_offset_1_mw,none,none,True,Boundary test for the stated 1 MW tolerance
+identity_offset_1.01_mw,supply_identity,supply_identity,True,Boundary test for the stated 1 MW tolerance
+identity_offset_10_mw,supply_identity,supply_identity,True,Boundary test for the stated 1 MW tolerance
+identity_offset_1000_mw,supply_identity,supply_identity,True,Boundary test for the stated 1 MW tolerance
+operating_reserve_1499_mw,low_operating_high_supply,low_operating_high_supply,True,Boundary test for the severe-stage review screen
+operating_reserve_1500_mw,none,none,True,Boundary test for the severe-stage review screen
+operating_reserve_1501_mw,none,none,True,Boundary test for the severe-stage review screen
+nesting_excess_-0.1_mw,none,none,True,Boundary test for the declared reserve-nesting check
+nesting_excess_0_mw,none,none,True,Boundary test for the declared reserve-nesting check
+nesting_excess_0.1_mw,reserve_nesting,reserve_nesting,True,Boundary test for the declared reserve-nesting check
+nesting_excess_100_mw,reserve_nesting,reserve_nesting,True,Boundary test for the declared reserve-nesting check
+operating_zero,low_operating_high_supply;operating_zero,low_operating_high_supply;operating_zero,True,Reason flags retain both zero values and cross-field conflict
+coherent_one_percent_scaling,none,none,True,Negative test: point-level deterministic invariants are preserved

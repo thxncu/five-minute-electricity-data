@@ -1,0 +1,5 @@
+scenario,transition_start,transition_end,observed_points_designated_unresolved,strict_full_service_60min_reliability_pct,strict_full_service_60min_unavailable_decisions,longest_unavailable_run_minutes,longest_run_start,longest_run_end
+none,,,0,94.1368697943671,12326,575,2026-04-09 12:55:00,2026-04-09 22:25:00
+extreme_change_core,2026-06-30 16:35:00,2026-06-30 16:40:00,2,94.1368697943671,12326,575,2026-04-09 12:55:00,2026-04-09 22:25:00
+contextual_11_points,2026-06-30 16:20:00,2026-06-30 17:10:00,11,94.13449143552984,12331,575,2026-04-09 12:55:00,2026-04-09 22:25:00
+expanded_20_minutes_each_side,2026-06-30 16:00:00,2026-06-30 17:30:00,19,94.13068606139021,12339,575,2026-04-09 12:55:00,2026-04-09 22:25:00

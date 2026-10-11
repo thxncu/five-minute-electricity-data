@@ -1,0 +1,7 @@
+mission_code,mission,required_evidence,ambiguity_policy
+cadence_delivery,Cadence delivery,Timestamp presence only,All observed records
+forecast_planning,Forecast planning,Timestamp and positive maximum-demand forecast,Other reserve-field flags do not invalidate this mission
+reserve_stage_permissive,Reserve-stage monitoring (permissive),"Timestamp, supply and operating reserve; deterministic failures, cross-field conflicts, and unresolved transition excluded",Reserve-nesting ambiguity may be consumed only with an explicit flag
+reserve_stage_strict,Reserve-stage monitoring (strict),Permissive requirements plus declared reserve-nesting check,Semantic ambiguity breaks the mission window
+full_service_permissive,Full-service use (permissive),Forecast and reserve-stage requirements,Reserve-nesting ambiguity may be consumed only with an explicit flag
+full_service_strict,Full-service use (strict),All required released fields and declared deterministic or definition-linked checks,Only passed-within-coverage points satisfy the mission

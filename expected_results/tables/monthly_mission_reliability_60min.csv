@@ -1,0 +1,145 @@
+period_type,period,mission_code,mission,ambiguity_policy,eligible_decision_times,available_decision_times,mission_reliability_pct
+month,2024-07,cadence_delivery,Cadence delivery,All observed records,8917,8724,97.83559493103061
+month,2024-08,cadence_delivery,Cadence delivery,All observed records,8928,8700,97.44623655913979
+month,2024-09,cadence_delivery,Cadence delivery,All observed records,8640,8556,99.02777777777779
+month,2024-10,cadence_delivery,Cadence delivery,All observed records,8928,8796,98.52150537634408
+month,2024-11,cadence_delivery,Cadence delivery,All observed records,8640,8422,97.47685185185185
+month,2024-12,cadence_delivery,Cadence delivery,All observed records,8928,8558,95.8557347670251
+month,2025-01,cadence_delivery,Cadence delivery,All observed records,8928,8604,96.37096774193549
+month,2025-02,cadence_delivery,Cadence delivery,All observed records,8064,7730,95.85813492063492
+month,2025-03,cadence_delivery,Cadence delivery,All observed records,8928,8504,95.25089605734766
+month,2025-04,cadence_delivery,Cadence delivery,All observed records,8640,8274,95.76388888888889
+month,2025-05,cadence_delivery,Cadence delivery,All observed records,8928,8570,95.99014336917563
+month,2025-06,cadence_delivery,Cadence delivery,All observed records,8640,8161,94.45601851851852
+month,2025-07,cadence_delivery,Cadence delivery,All observed records,8928,8384,93.9068100358423
+month,2025-08,cadence_delivery,Cadence delivery,All observed records,8928,8433,94.45564516129032
+month,2025-09,cadence_delivery,Cadence delivery,All observed records,8640,7994,92.52314814814815
+month,2025-10,cadence_delivery,Cadence delivery,All observed records,8928,8308,93.05555555555556
+month,2025-11,cadence_delivery,Cadence delivery,All observed records,8640,8159,94.43287037037037
+month,2025-12,cadence_delivery,Cadence delivery,All observed records,8928,8364,93.68279569892472
+month,2026-01,cadence_delivery,Cadence delivery,All observed records,8928,7998,89.58333333333334
+month,2026-02,cadence_delivery,Cadence delivery,All observed records,8064,7200,89.28571428571429
+month,2026-03,cadence_delivery,Cadence delivery,All observed records,8928,8155,91.3418458781362
+month,2026-04,cadence_delivery,Cadence delivery,All observed records,8640,8276,95.78703703703704
+month,2026-05,cadence_delivery,Cadence delivery,All observed records,8928,8706,97.51344086021506
+month,2026-06,cadence_delivery,Cadence delivery,All observed records,8640,8577,99.27083333333333
+month,2024-07,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8917,8724,97.83559493103061
+month,2024-08,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8928,8700,97.44623655913979
+month,2024-09,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8640,8556,99.02777777777779
+month,2024-10,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8928,8796,98.52150537634408
+month,2024-11,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8640,8422,97.47685185185185
+month,2024-12,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8928,8558,95.8557347670251
+month,2025-01,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8928,8589,96.20295698924731
+month,2025-02,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8064,7730,95.85813492063492
+month,2025-03,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8928,8504,95.25089605734766
+month,2025-04,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8640,8274,95.76388888888889
+month,2025-05,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8928,8570,95.99014336917563
+month,2025-06,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8640,8161,94.45601851851852
+month,2025-07,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8928,8372,93.77240143369175
+month,2025-08,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8928,8433,94.45564516129032
+month,2025-09,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8640,7994,92.52314814814815
+month,2025-10,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8928,8308,93.05555555555556
+month,2025-11,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8640,8159,94.43287037037037
+month,2025-12,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8928,8364,93.68279569892472
+month,2026-01,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8928,7965,89.21370967741935
+month,2026-02,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8064,7126,88.36805555555556
+month,2026-03,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8928,8155,91.3418458781362
+month,2026-04,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8640,8263,95.63657407407408
+month,2026-05,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8928,8684,97.26702508960572
+month,2026-06,forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,8640,8577,99.27083333333333
+month,2024-07,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8917,8724,97.83559493103061
+month,2024-08,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8700,97.44623655913979
+month,2024-09,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,8556,99.02777777777779
+month,2024-10,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8796,98.52150537634408
+month,2024-11,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,8422,97.47685185185185
+month,2024-12,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8558,95.8557347670251
+month,2025-01,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8604,96.37096774193549
+month,2025-02,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8064,7717,95.69692460317461
+month,2025-03,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8504,95.25089605734766
+month,2025-04,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,8274,95.76388888888889
+month,2025-05,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8570,95.99014336917563
+month,2025-06,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,8144,94.25925925925925
+month,2025-07,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8384,93.9068100358423
+month,2025-08,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8433,94.45564516129032
+month,2025-09,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,7994,92.52314814814815
+month,2025-10,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8308,93.05555555555556
+month,2025-11,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,8153,94.36342592592592
+month,2025-12,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8364,93.68279569892472
+month,2026-01,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,7989,89.48252688172043
+month,2026-02,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8064,7200,89.28571428571429
+month,2026-03,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8155,91.3418458781362
+month,2026-04,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,8276,95.78703703703704
+month,2026-05,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8706,97.51344086021506
+month,2026-06,reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,8555,99.01620370370371
+month,2024-07,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8917,8569,96.09734215543344
+month,2024-08,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8928,8330,93.30197132616487
+month,2024-09,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8640,8294,95.99537037037037
+month,2024-10,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8928,8796,98.52150537634408
+month,2024-11,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8640,8422,97.47685185185185
+month,2024-12,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8928,8558,95.8557347670251
+month,2025-01,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8928,8604,96.37096774193549
+month,2025-02,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8064,7717,95.69692460317461
+month,2025-03,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8928,8504,95.25089605734766
+month,2025-04,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8640,8266,95.67129629629629
+month,2025-05,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8928,8460,94.75806451612904
+month,2025-06,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8640,8144,94.25925925925925
+month,2025-07,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8928,8259,92.50672043010752
+month,2025-08,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8928,8321,93.20116487455196
+month,2025-09,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8640,7912,91.57407407407408
+month,2025-10,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8928,8308,93.05555555555556
+month,2025-11,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8640,8153,94.36342592592592
+month,2025-12,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8928,8364,93.68279569892472
+month,2026-01,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8928,7913,88.63127240143369
+month,2026-02,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8064,7184,89.0873015873016
+month,2026-03,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8928,7911,88.60887096774194
+month,2026-04,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8640,8037,93.02083333333333
+month,2026-05,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8928,8621,96.56137992831542
+month,2026-06,reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,8640,8420,97.45370370370371
+month,2024-07,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8917,8724,97.83559493103061
+month,2024-08,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8700,97.44623655913979
+month,2024-09,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,8556,99.02777777777779
+month,2024-10,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8796,98.52150537634408
+month,2024-11,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,8422,97.47685185185185
+month,2024-12,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8558,95.8557347670251
+month,2025-01,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8589,96.20295698924731
+month,2025-02,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8064,7717,95.69692460317461
+month,2025-03,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8504,95.25089605734766
+month,2025-04,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,8274,95.76388888888889
+month,2025-05,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8570,95.99014336917563
+month,2025-06,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,8144,94.25925925925925
+month,2025-07,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8372,93.77240143369175
+month,2025-08,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8433,94.45564516129032
+month,2025-09,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,7994,92.52314814814815
+month,2025-10,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8308,93.05555555555556
+month,2025-11,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,8153,94.36342592592592
+month,2025-12,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8364,93.68279569892472
+month,2026-01,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,7956,89.11290322580645
+month,2026-02,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8064,7126,88.36805555555556
+month,2026-03,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8155,91.3418458781362
+month,2026-04,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,8263,95.63657407407408
+month,2026-05,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8928,8684,97.26702508960572
+month,2026-06,full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,8640,8555,99.01620370370371
+month,2024-07,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8917,8569,96.09734215543344
+month,2024-08,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8928,8330,93.30197132616487
+month,2024-09,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8640,8294,95.99537037037037
+month,2024-10,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8928,8796,98.52150537634408
+month,2024-11,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8640,8422,97.47685185185185
+month,2024-12,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8928,8558,95.8557347670251
+month,2025-01,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8928,8589,96.20295698924731
+month,2025-02,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8064,7717,95.69692460317461
+month,2025-03,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8928,8504,95.25089605734766
+month,2025-04,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8640,8266,95.67129629629629
+month,2025-05,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8928,8460,94.75806451612904
+month,2025-06,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8640,8144,94.25925925925925
+month,2025-07,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8928,8247,92.37231182795699
+month,2025-08,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8928,8321,93.20116487455196
+month,2025-09,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8640,7912,91.57407407407408
+month,2025-10,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8928,8308,93.05555555555556
+month,2025-11,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8640,8153,94.36342592592592
+month,2025-12,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8928,8364,93.68279569892472
+month,2026-01,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8928,7880,88.26164874551972
+month,2026-02,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8064,7110,88.16964285714286
+month,2026-03,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8928,7911,88.60887096774194
+month,2026-04,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8640,8024,92.87037037037037
+month,2026-05,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8928,8599,96.3149641577061
+month,2026-06,full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,8640,8420,97.45370370370371

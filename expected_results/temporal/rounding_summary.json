@@ -1,0 +1,85 @@
+{
+  "observed_records": 209323,
+  "decimal_integer_scale_per_mw": 10000,
+  "six_significant_digits_all_three_fields_records": 209253,
+  "six_significant_digits_all_three_fields_pct": 99.96655885879717,
+  "more_precision_records": 70,
+  "within_six_significant_rounding_envelope_all_records": 209317,
+  "outside_six_significant_rounding_envelope_all_records": 6,
+  "maximum_absolute_residual_not_above_one_mw": 0.6,
+  "minimum_absolute_residual_above_one_mw": 3046.57,
+  "exactly_half_mw_records": 6124,
+  "tolerance_sensitivity": [
+    {
+      "tolerance_mw": "0.1",
+      "records_exceeding_tolerance": 42244,
+      "minimum_residual_above_tolerance_mw": 0.11,
+      "maximum_residual_at_or_below_tolerance_mw": 0.1,
+      "records_exactly_on_tolerance": 49144
+    },
+    {
+      "tolerance_mw": "0.2",
+      "records_exceeding_tolerance": 30284,
+      "minimum_residual_above_tolerance_mw": 0.21,
+      "maximum_residual_at_or_below_tolerance_mw": 0.2,
+      "records_exactly_on_tolerance": 11890
+    },
+    {
+      "tolerance_mw": "0.5",
+      "records_exceeding_tolerance": 24,
+      "minimum_residual_above_tolerance_mw": 0.51,
+      "maximum_residual_at_or_below_tolerance_mw": 0.5,
+      "records_exactly_on_tolerance": 6124
+    },
+    {
+      "tolerance_mw": "0.51",
+      "records_exceeding_tolerance": 20,
+      "minimum_residual_above_tolerance_mw": 0.52,
+      "maximum_residual_at_or_below_tolerance_mw": 0.51,
+      "records_exactly_on_tolerance": 4
+    },
+    {
+      "tolerance_mw": "0.6",
+      "records_exceeding_tolerance": 6,
+      "minimum_residual_above_tolerance_mw": 3046.57,
+      "maximum_residual_at_or_below_tolerance_mw": 0.6,
+      "records_exactly_on_tolerance": 9
+    },
+    {
+      "tolerance_mw": "1",
+      "records_exceeding_tolerance": 6,
+      "minimum_residual_above_tolerance_mw": 3046.57,
+      "maximum_residual_at_or_below_tolerance_mw": 0.6,
+      "records_exactly_on_tolerance": 0
+    },
+    {
+      "tolerance_mw": "5",
+      "records_exceeding_tolerance": 6,
+      "minimum_residual_above_tolerance_mw": 3046.57,
+      "maximum_residual_at_or_below_tolerance_mw": 0.6,
+      "records_exactly_on_tolerance": 0
+    },
+    {
+      "tolerance_mw": "10",
+      "records_exceeding_tolerance": 6,
+      "minimum_residual_above_tolerance_mw": 3046.57,
+      "maximum_residual_at_or_below_tolerance_mw": 0.6,
+      "records_exactly_on_tolerance": 0
+    },
+    {
+      "tolerance_mw": "100",
+      "records_exceeding_tolerance": 6,
+      "minimum_residual_above_tolerance_mw": 3046.57,
+      "maximum_residual_at_or_below_tolerance_mw": 0.6,
+      "records_exactly_on_tolerance": 0
+    },
+    {
+      "tolerance_mw": "1000",
+      "records_exceeding_tolerance": 6,
+      "minimum_residual_above_tolerance_mw": 3046.57,
+      "maximum_residual_at_or_below_tolerance_mw": 0.6,
+      "records_exactly_on_tolerance": 0
+    }
+  ],
+  "interpretation": "Observed formatting is consistent with six-significant-digit rounding for almost all records. A rounding-to-nearest convention is not independently documented. One MW is a conservative publication-precision tolerance, not a physical deadband or an optimized threshold."
+}

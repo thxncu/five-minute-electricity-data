@@ -1,0 +1,423 @@
+{
+  "seed": 20261011,
+  "n_resamples": 1000,
+  "bootstrap_block_days": 7,
+  "train_start": "2024-07-01 00:00:00",
+  "train_end": "2025-12-31 23:55:00",
+  "test_start": "2026-01-01 00:00:00",
+  "test_end": "2026-06-30 23:55:00",
+  "resampling_method": "Moving blocks of seven consecutive calendar days, without circular wrap-around; daily transition sufficient statistics retain within-day transitions and original boundary pairs.",
+  "uncertainty_reference_intervals": {
+    "cadence_delivery": {
+      "pooled_7day_block_resampling": {
+        "a_good_to_bad": {
+          "low_2_5": 0.003556786617547471,
+          "median": 0.004117929475073631,
+          "high_97_5": 0.004645765745626
+        },
+        "b_bad_to_good": {
+          "low_2_5": 0.9073537697807228,
+          "median": 0.94555967923653,
+          "high_97_5": 0.9713627896378704
+        },
+        "pi_bad": {
+          "low_2_5": 0.003747702771987721,
+          "median": 0.004345057752843717,
+          "high_97_5": 0.004897771692468406
+        },
+        "markov_60min_unavailability_pct": {
+          "low_2_5": 4.202542531591576,
+          "median": 4.850600009915563,
+          "high_97_5": 5.453851120322237
+        }
+      },
+      "training_7day_block_resampling": {
+        "a_good_to_bad": {
+          "low_2_5": 0.0032748301230831247,
+          "median": 0.003677825098496932,
+          "high_97_5": 0.004160897788356265
+        },
+        "b_bad_to_good": {
+          "low_2_5": 0.8839764056925948,
+          "median": 0.9373351163509998,
+          "high_97_5": 0.9758847286251114
+        },
+        "pi_bad": {
+          "low_2_5": 0.003445193752536213,
+          "median": 0.003921425823238844,
+          "high_97_5": 0.004467066377838741
+        },
+        "markov_60min_unavailability_pct": {
+          "low_2_5": 3.8735042411285887,
+          "median": 4.349063098447431,
+          "high_97_5": 4.904199920861225
+        }
+      }
+    },
+    "forecast_planning": {
+      "pooled_7day_block_resampling": {
+        "a_good_to_bad": {
+          "low_2_5": 0.0036692842885379896,
+          "median": 0.004177580636005431,
+          "high_97_5": 0.004676194438626917
+        },
+        "b_bad_to_good": {
+          "low_2_5": 0.7094523897213804,
+          "median": 0.8436574091981588,
+          "high_97_5": 0.9490194792856971
+        },
+        "pi_bad": {
+          "low_2_5": 0.004129627665731989,
+          "median": 0.004930320682416056,
+          "high_97_5": 0.00604067706005708
+        },
+        "markov_60min_unavailability_pct": {
+          "low_2_5": 4.384436356468924,
+          "median": 4.971324671548816,
+          "high_97_5": 5.547575376105613
+        }
+      },
+      "training_7day_block_resampling": {
+        "a_good_to_bad": {
+          "low_2_5": 0.0033011555332711617,
+          "median": 0.003701986881123677,
+          "high_97_5": 0.004103396705441664
+        },
+        "b_bad_to_good": {
+          "low_2_5": 0.8887281034118145,
+          "median": 0.9328965498236332,
+          "high_97_5": 0.9716014524385888
+        },
+        "pi_bad": {
+          "low_2_5": 0.003477630368578291,
+          "median": 0.003952303209422081,
+          "high_97_5": 0.004439953558920609
+        },
+        "markov_60min_unavailability_pct": {
+          "low_2_5": 3.915772384086825,
+          "median": 4.377414633879578,
+          "high_97_5": 4.8339232414406705
+        }
+      }
+    },
+    "reserve_stage_permissive": {
+      "pooled_7day_block_resampling": {
+        "a_good_to_bad": {
+          "low_2_5": 0.0036810159976307976,
+          "median": 0.004161878435902875,
+          "high_97_5": 0.0047137463711180065
+        },
+        "b_bad_to_good": {
+          "low_2_5": 0.8917669906409013,
+          "median": 0.9325392744195613,
+          "high_97_5": 0.9643302804465596
+        },
+        "pi_bad": {
+          "low_2_5": 0.0039056144052720815,
+          "median": 0.004447691415403521,
+          "high_97_5": 0.0050442752806272775
+        },
+        "markov_60min_unavailability_pct": {
+          "low_2_5": 4.349337311870352,
+          "median": 4.910684002279398,
+          "high_97_5": 5.542559254849765
+        }
+      },
+      "training_7day_block_resampling": {
+        "a_good_to_bad": {
+          "low_2_5": 0.003280811970728332,
+          "median": 0.003689298811016187,
+          "high_97_5": 0.004096961430355813
+        },
+        "b_bad_to_good": {
+          "low_2_5": 0.8674497991967872,
+          "median": 0.9202165961001181,
+          "high_97_5": 0.9655275215884392
+        },
+        "pi_bad": {
+          "low_2_5": 0.003491841145664079,
+          "median": 0.004000331333189555,
+          "high_97_5": 0.004522772088831195
+        },
+        "markov_60min_unavailability_pct": {
+          "low_2_5": 3.8779918646560483,
+          "median": 4.369303154744952,
+          "high_97_5": 4.85321400069129
+        }
+      }
+    },
+    "reserve_stage_strict": {
+      "pooled_7day_block_resampling": {
+        "a_good_to_bad": {
+          "low_2_5": 0.004126109853254494,
+          "median": 0.004659661572337866,
+          "high_97_5": 0.0052061168026432784
+        },
+        "b_bad_to_good": {
+          "low_2_5": 0.34248988959466536,
+          "median": 0.42592994575938226,
+          "high_97_5": 0.5445709430756159
+        },
+        "pi_bad": {
+          "low_2_5": 0.008245138929711751,
+          "median": 0.01075821814427641,
+          "high_97_5": 0.013703794430309446
+        },
+        "markov_60min_unavailability_pct": {
+          "low_2_5": 5.352929124424905,
+          "median": 6.029466967537983,
+          "high_97_5": 6.7661314475438
+        }
+      },
+      "training_7day_block_resampling": {
+        "a_good_to_bad": {
+          "low_2_5": 0.003667355917889642,
+          "median": 0.004097158472978542,
+          "high_97_5": 0.004534239774374343
+        },
+        "b_bad_to_good": {
+          "low_2_5": 0.3433093819342936,
+          "median": 0.4539526248399488,
+          "high_97_5": 0.6068654262285746
+        },
+        "pi_bad": {
+          "low_2_5": 0.006583544791753898,
+          "median": 0.008999862889249921,
+          "high_97_5": 0.012023454647436455
+        },
+        "markov_60min_unavailability_pct": {
+          "low_2_5": 4.719656704972893,
+          "median": 5.276030202625892,
+          "high_97_5": 5.867700573585004
+        }
+      }
+    },
+    "full_service_permissive": {
+      "pooled_7day_block_resampling": {
+        "a_good_to_bad": {
+          "low_2_5": 0.003649906570561077,
+          "median": 0.004174706456162851,
+          "high_97_5": 0.004719920298253637
+        },
+        "b_bad_to_good": {
+          "low_2_5": 0.7097487169773882,
+          "median": 0.8329959389739661,
+          "high_97_5": 0.9361163098070314
+        },
+        "pi_bad": {
+          "low_2_5": 0.004132012060445283,
+          "median": 0.005014396054719705,
+          "high_97_5": 0.006195706073544429
+        },
+        "markov_60min_unavailability_pct": {
+          "low_2_5": 4.360760604079001,
+          "median": 4.979549837958536,
+          "high_97_5": 5.62477377742629
+        }
+      },
+      "training_7day_block_resampling": {
+        "a_good_to_bad": {
+          "low_2_5": 0.003287837303557292,
+          "median": 0.0037148399938338426,
+          "high_97_5": 0.004116770159546076
+        },
+        "b_bad_to_good": {
+          "low_2_5": 0.8624442796631864,
+          "median": 0.9168,
+          "high_97_5": 0.9614210368424467
+        },
+        "pi_bad": {
+          "low_2_5": 0.0035512433646399805,
+          "median": 0.004039483481843131,
+          "high_97_5": 0.004570120397730923
+        },
+        "markov_60min_unavailability_pct": {
+          "low_2_5": 3.9018197328538022,
+          "median": 4.400273971049717,
+          "high_97_5": 4.8748344714559115
+        }
+      }
+    },
+    "full_service_strict": {
+      "pooled_7day_block_resampling": {
+        "a_good_to_bad": {
+          "low_2_5": 0.004173610501367021,
+          "median": 0.004678072335304153,
+          "high_97_5": 0.005217395500351876
+        },
+        "b_bad_to_good": {
+          "low_2_5": 0.33136525050689214,
+          "median": 0.4128347387749341,
+          "high_97_5": 0.511957353730755
+        },
+        "pi_bad": {
+          "low_2_5": 0.008680637509616753,
+          "median": 0.01121043799330207,
+          "high_97_5": 0.014195686230997507
+        },
+        "markov_60min_unavailability_pct": {
+          "low_2_5": 5.413274189565054,
+          "median": 6.090485053392303,
+          "high_97_5": 6.81380563087611
+        }
+      },
+      "training_7day_block_resampling": {
+        "a_good_to_bad": {
+          "low_2_5": 0.003708964263749781,
+          "median": 0.004112706951171628,
+          "high_97_5": 0.004556786843076269
+        },
+        "b_bad_to_good": {
+          "low_2_5": 0.34948634056669375,
+          "median": 0.46110905192886303,
+          "high_97_5": 0.6140359883723574
+        },
+        "pi_bad": {
+          "low_2_5": 0.006436727855971195,
+          "median": 0.00887801686425288,
+          "high_97_5": 0.011864708090338625
+        },
+        "markov_60min_unavailability_pct": {
+          "low_2_5": 4.702008641464338,
+          "median": 5.299656301598466,
+          "high_97_5": 5.945354188986181
+        }
+      }
+    }
+  },
+  "parametric_simulation_reference": {
+    "cadence_delivery": {
+      "unavailability_60min_pct": {
+        "low_2_5": 4.532129249532657,
+        "median": 4.842814264444962,
+        "high_97_5": 5.156496011492227
+      },
+      "longest_unavailable_60min_minutes": {
+        "low_2_5": 120.0,
+        "median": 135.0,
+        "high_97_5": 185.0
+      },
+      "longest_bad_point_run_slots": {
+        "low_2_5": 2.0,
+        "median": 3.0,
+        "high_97_5": 4.0
+      },
+      "longest_good_point_run_slots": {
+        "low_2_5": 1298.95,
+        "median": 1730.0,
+        "high_97_5": 2488.025
+      }
+    },
+    "forecast_planning": {
+      "unavailability_60min_pct": {
+        "low_2_5": 4.6163350441661235,
+        "median": 4.9312892131913255,
+        "high_97_5": 5.274272341113735
+      },
+      "longest_unavailable_60min_minutes": {
+        "low_2_5": 120.0,
+        "median": 140.0,
+        "high_97_5": 190.0
+      },
+      "longest_bad_point_run_slots": {
+        "low_2_5": 4.0,
+        "median": 5.0,
+        "high_97_5": 6.0
+      },
+      "longest_good_point_run_slots": {
+        "low_2_5": 1324.75,
+        "median": 1714.5,
+        "high_97_5": 2460.1
+      }
+    },
+    "reserve_stage_permissive": {
+      "unavailability_60min_pct": {
+        "low_2_5": 4.569195972011475,
+        "median": 4.878489647003981,
+        "high_97_5": 5.186296847723196
+      },
+      "longest_unavailable_60min_minutes": {
+        "low_2_5": 120.0,
+        "median": 135.0,
+        "high_97_5": 185.0
+      },
+      "longest_bad_point_run_slots": {
+        "low_2_5": 3.0,
+        "median": 3.0,
+        "high_97_5": 5.0
+      },
+      "longest_good_point_run_slots": {
+        "low_2_5": 1357.85,
+        "median": 1720.0,
+        "high_97_5": 2482.025
+      }
+    },
+    "reserve_stage_strict": {
+      "unavailability_60min_pct": {
+        "low_2_5": 5.6147463004628335,
+        "median": 5.9749130709845,
+        "high_97_5": 6.339348995619065
+      },
+      "longest_unavailable_60min_minutes": {
+        "low_2_5": 145.0,
+        "median": 170.0,
+        "high_97_5": 230.0
+      },
+      "longest_bad_point_run_slots": {
+        "low_2_5": 11.0,
+        "median": 14.0,
+        "high_97_5": 19.0
+      },
+      "longest_good_point_run_slots": {
+        "low_2_5": 1216.95,
+        "median": 1572.0,
+        "high_97_5": 2316.0
+      }
+    },
+    "full_service_permissive": {
+      "unavailability_60min_pct": {
+        "low_2_5": 4.664425459855678,
+        "median": 4.970294298122524,
+        "high_97_5": 5.290968420151354
+      },
+      "longest_unavailable_60min_minutes": {
+        "low_2_5": 120.0,
+        "median": 140.0,
+        "high_97_5": 190.0
+      },
+      "longest_bad_point_run_slots": {
+        "low_2_5": 4.0,
+        "median": 5.0,
+        "high_97_5": 7.0
+      },
+      "longest_good_point_run_slots": {
+        "low_2_5": 1345.925,
+        "median": 1705.0,
+        "high_97_5": 2594.2
+      }
+    },
+    "full_service_strict": {
+      "unavailability_60min_pct": {
+        "low_2_5": 5.705183395249939,
+        "median": 6.0453124925676285,
+        "high_97_5": 6.4435092208972105
+      },
+      "longest_unavailable_60min_minutes": {
+        "low_2_5": 145.0,
+        "median": 175.0,
+        "high_97_5": 230.0
+      },
+      "longest_bad_point_run_slots": {
+        "low_2_5": 11.0,
+        "median": 14.0,
+        "high_97_5": 21.0
+      },
+      "longest_good_point_run_slots": {
+        "low_2_5": 1207.0,
+        "median": 1572.5,
+        "high_97_5": 2299.2999999999997
+      }
+    }
+  },
+  "caution": "A pooled stationary first-order Markov chain is an interpretable reference, not an established mechanism or future reliability guarantee. Overlapping windows are not treated as independent. Seven-day blocks retain short-range dependence but do not remove seasonal changes or guarantee interval coverage under nonstationarity."
+}

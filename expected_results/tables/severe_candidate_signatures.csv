@@ -1,0 +1,4 @@
+segment_id,start,end,records,duration_minutes,failure_signature,minimum_operating_reserve_mw,maximum_operating_reserve_mw,minimum_supply_reserve_mw,maximum_supply_reserve_mw,operating_reserve_range_mw,demand_range_mw,entry_jump_mw,exit_jump_mw,screen_high_supply,boundary_values_normal,large_boundary_jump
+1,2025-02-27 15:05:00,2025-02-27 15:10:00,2,10,Nearly constant nonzero field,686.032,686.072,38386.3,43070.9,0.03999999999996362,5197.0999999999985,10385.828,10871.968,True,True,True
+2,2025-11-17 16:30:00,2025-11-17 16:55:00,6,30,Zero-valued run,0.0,0.0,18907.2,20149.6,0.0,813.1999999999971,11487.5,13190.5,True,True,True
+3,2026-01-16 14:45:00,2026-01-16 14:45:00,1,5,Isolated low positive value,1146.91,1146.91,30320.3,30320.3,0.0,0.0,13238.79,12729.39,True,True,True

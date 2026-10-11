@@ -1,0 +1,6 @@
+method,nominal_persistence_minutes,segments_surviving,decision_timestamps_flagged,flagged_decision_minutes
+1 consecutive low observation,5.0,3,9,45
+2 consecutive low observations,10.0,2,6,30
+3 consecutive low observations,15.0,1,4,20
+6 consecutive low observations,30.0,1,1,5
+Integrity screening plus signature attribution,,0,0,0

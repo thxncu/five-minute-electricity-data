@@ -1,0 +1,7 @@
+evidence_status,grid_points,share_of_expected_grid_pct,definition
+passed_within_declared_coverage,207862,98.86891171993912,"Observed and no declared deterministic failure, conflict, ambiguity, or unresolved transition"
+deterministic_field_failure,137,0.06516362252663623,Zero-valued required field or exact supply-identity failure
+cross_field_conflict,3,0.0014269406392694063,"Low operating reserve with high supply reserve, without a zero-valued field"
+semantic_ambiguity,1310,0.6230974124809742,Declared reserve-nesting check is flagged but public metadata do not resolve definition or synchronization
+unresolved_transition,11,0.0052321156773211565,Observed point within the 30 June 2026 inspection context
+missing_or_unresolved,917,0.4361681887366819,Expected timestamp not released

@@ -1,0 +1,4 @@
+calibration_quantile,score_threshold,calibration_change_flags,heldout_change_flags,all_clusters,calibration_clusters,heldout_clusters,june30_cluster_start,june30_cluster_end,june30_context_change_flags
+0.995,3.76447931600812,785,383,1140,773,367,2026-06-30 16:35:00,2026-06-30 16:45:00,2
+0.999,5.613336168480908,157,93,245,154,91,2026-06-30 16:35:00,2026-06-30 16:45:00,2
+0.9995,6.319513208205635,79,52,127,76,51,2026-06-30 16:35:00,2026-06-30 16:45:00,2

@@ -1,0 +1,13 @@
+metric,value
+Level violations,1316.0
+Rate violations,1173.0
+Level-only violations,143.0
+Level-only median MW excess,81.70000000000073
+Level-only mean MW excess,117.42909090909086
+Level-only 90th percentile MW excess,301.13999999999976
+Level-only maximum MW excess,489.2000000000007
+All records median absolute operating-rate residual vs current-demand denominator (percentage points),0.21769123201763385
+All records maximum absolute operating-rate residual vs current-demand denominator (percentage points),4.147989744066567
+All records median implied-denominator difference from current demand (MW),770.8446215288423
+All records mean implied-denominator difference from current demand (MW),960.7884805499978
+All records maximum implied-denominator difference from current demand (MW),5741.12796309439

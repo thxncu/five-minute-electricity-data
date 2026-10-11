@@ -1,0 +1,13 @@
+comparison,metric,observed_difference,lower_95,upper_95,n_common,blocks_days,bootstrap_draws,interpretation
+strict minus raw,mae_mw,5.40702463628611,0.9689099793149126,9.466146014477687,47663,7,2000,Conditional paired error difference; trained models fixed
+strict minus raw,rmse_mw,5.742982780100988,-4.108639737098266,16.188287417136856,47663,7,2000,Conditional paired error difference; trained models fixed
+strict minus raw,mape_pct,0.010038694033607465,0.002376864979461535,0.01700021128316447,47663,7,2000,Conditional paired error difference; trained models fixed
+permissive minus strict,mae_mw,-3.1607797568797196,-7.089508129578798,0.9210169016806827,47663,7,2000,Conditional paired error difference; trained models fixed
+permissive minus strict,rmse_mw,0.07491948700624107,-10.018316397577573,9.702611255722948,47663,7,2000,Conditional paired error difference; trained models fixed
+permissive minus strict,mape_pct,-0.00588051352464114,-0.01230751033227001,0.0006719729061400962,47663,7,2000,Conditional paired error difference; trained models fixed
+causal_imputation minus permissive,mae_mw,-4.760019812120277,-7.944365215293362,-1.1806563147570337,47663,7,2000,Conditional paired error difference; trained models fixed
+causal_imputation minus permissive,rmse_mw,-4.358483759538331,-8.808473452581245,0.7194172627731402,47663,7,2000,Conditional paired error difference; trained models fixed
+causal_imputation minus permissive,mape_pct,-0.007143255265307569,-0.012212593474310968,-0.0011683046175130559,47663,7,2000,Conditional paired error difference; trained models fixed
+raw minus persistence,mae_mw,-1462.0559579665166,-1549.6771629077316,-1383.4237173953397,47663,7,2000,Conditional paired error difference; trained models fixed
+raw minus persistence,rmse_mw,-1703.3450332332268,-1817.101508988294,-1602.463780135132,47663,7,2000,Conditional paired error difference; trained models fixed
+raw minus persistence,mape_pct,-2.370486398565867,-2.4814975730708038,-2.288231717630879,47663,7,2000,Conditional paired error difference; trained models fixed

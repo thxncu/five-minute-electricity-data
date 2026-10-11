@@ -1,0 +1,6 @@
+step,segments_remaining,marginal_segments_removed,role
+Candidate severe-stage parsing,3,0,"Defines records below 1,500 MW"
+"High-supply screening: supply reserve >= 5,500 MW",0,3,Routes all three candidate segments to review in this archive
+Normal adjacent operating-reserve values,0,0,Corroborates return to adjacent higher values
+"Boundary change >= 5,000 MW",0,0,Corroborates the observed discontinuity
+Signature attribution,0,0,"Distinguishes released-data signatures: nearly constant nonzero values, a zero-valued run, and an isolated low nonzero value"

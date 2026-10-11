@@ -1,0 +1,5 @@
+mission_code,mission,ambiguity_policy,window_minutes,eligible_decision_times,available_decision_times,unavailable_decision_times,mission_reliability_pct,mission_unavailability_pct,longest_unavailable_run_minutes,longest_run_start,longest_run_end
+reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,60,210229,200086,10143,95.17526126271827,4.824738737281726,165,2025-05-29 21:15:00,2025-05-29 23:55:00
+reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,60,210229,198067,12162,94.21487996422948,5.785120035770517,575,2026-04-09 12:55:00,2026-04-09 22:25:00
+full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,60,210229,199917,10312,95.09487273401862,4.905127265981382,430,2026-02-27 00:00:00,2026-02-27 07:05:00
+full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,60,210229,197898,12331,94.13449143552984,5.865508564470173,575,2026-04-09 12:55:00,2026-04-09 22:25:00

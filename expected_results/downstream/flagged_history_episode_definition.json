@@ -1,0 +1,27 @@
+{
+  "input_table": "test_predictions.csv.gz",
+  "cohort_definition": "Evaluable target origins with complete raw histories that fail permissive acceptance",
+  "timezone": "Korea Standard Time (UTC+09:00)",
+  "run_definition": "Maximal consecutive five-minute origins within the selected cohort; a gap starts a new run",
+  "observation_unit": "Forecast origin with an overlapping twelve-point input history; a run is not an independently verified physical event",
+  "largest_run_selection": "Largest total raw squared error among the observed test-cohort runs, selected after observing errors; chronological order resolves ties",
+  "n_origins": 172,
+  "n_runs": 8,
+  "n_calendar_days": 7,
+  "largest_raw_sse_run_id": 5,
+  "origins_with_multiple_blocking_reasons": 0,
+  "squared_error_unit": "MW squared",
+  "sse_reduction_share_definition": "Run raw-minus-imputed squared error divided by the corresponding whole-cohort difference; shares can be negative or exceed 100 percent",
+  "limitations": [
+    "Descriptive subgroup decomposition without a subgroup significance test",
+    "The largest-error run is selected from the test errors and does not define a prospective event detector",
+    "Policy-specific training samples and overlapping histories prevent a causal interpretation",
+    "Published reference demand is screened but is not independent physical ground truth",
+    "Pooled differences do not establish uniform benefits across flagged events"
+  ],
+  "tables": [
+    "flagged_history_runs.csv",
+    "flagged_history_concentration.csv",
+    "flagged_history_reason_groups.csv"
+  ]
+}

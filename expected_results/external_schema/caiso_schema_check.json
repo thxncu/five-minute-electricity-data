@@ -1,0 +1,115 @@
+{
+  "scope": "Three deliberately selected source-format examples; no regional reliability or model-performance estimate",
+  "timezone_status": "Pacific-time calendar interpretation based on the publisher's PT display and published chart code; CSV rows contain no offset",
+  "midnight_status": "The final repeated 00:00 row is retained as a boundary ambiguity, not silently removed or assigned to a date",
+  "demand_response_status": "Blank Demand response fields are reported separately; they are not treated as missing demand observations or as zeros",
+  "results": [
+    {
+      "date": "2024-07-01",
+      "filename": "demand_2024-07-01.csv",
+      "sha256": "179646e679a50d2b5253d25124e803c2ab23cdba9a2c06f699a3f17262dcd0f3",
+      "published_data_rows": 289,
+      "distinct_clock_labels": 288,
+      "repeated_clock_labels": {
+        "00:00": 2
+      },
+      "first_clock": "00:00",
+      "last_clock": "00:00",
+      "expected_five_minute_slots_in_local_day": 288,
+      "calendar_timezone": "America/Los_Angeles",
+      "calendar_nonexistent_clock_labels": [],
+      "calendar_ambiguous_clock_labels": [],
+      "blank_counts": {
+        "Day ahead forecast": 0,
+        "Hour ahead forecast": 0,
+        "Current demand": 0,
+        "Demand response": 289
+      },
+      "blank_load_clocks_match_nonexistent_hour": false,
+      "utc_offset_or_fold_column_present": false,
+      "revision_or_publication_time_column_present": false,
+      "disposition": "Explicit boundary and timestamp convention required before UTC window audit",
+      "window_availability_estimated": false
+    },
+    {
+      "date": "2024-11-03",
+      "filename": "demand_2024-11-03.csv",
+      "sha256": "3c652de1ca25d33f88e3e91b3e60d56e7f2c1f81d26b3f9bb56c626e1b8d1b5b",
+      "published_data_rows": 289,
+      "distinct_clock_labels": 288,
+      "repeated_clock_labels": {
+        "00:00": 2
+      },
+      "first_clock": "00:00",
+      "last_clock": "00:00",
+      "expected_five_minute_slots_in_local_day": 300,
+      "calendar_timezone": "America/Los_Angeles",
+      "calendar_nonexistent_clock_labels": [],
+      "calendar_ambiguous_clock_labels": [
+        "01:00",
+        "01:05",
+        "01:10",
+        "01:15",
+        "01:20",
+        "01:25",
+        "01:30",
+        "01:35",
+        "01:40",
+        "01:45",
+        "01:50",
+        "01:55"
+      ],
+      "blank_counts": {
+        "Day ahead forecast": 0,
+        "Hour ahead forecast": 0,
+        "Current demand": 0,
+        "Demand response": 289
+      },
+      "blank_load_clocks_match_nonexistent_hour": false,
+      "utc_offset_or_fold_column_present": false,
+      "revision_or_publication_time_column_present": false,
+      "disposition": "Repeated-hour offset unresolved; defer UTC window audit",
+      "window_availability_estimated": false
+    },
+    {
+      "date": "2025-03-09",
+      "filename": "demand_2025-03-09.csv",
+      "sha256": "d9d4f7835c4322837cbd7f136d8bbd01909b26b5df193420400e78a4466afa97",
+      "published_data_rows": 289,
+      "distinct_clock_labels": 288,
+      "repeated_clock_labels": {
+        "00:00": 2
+      },
+      "first_clock": "00:00",
+      "last_clock": "00:00",
+      "expected_five_minute_slots_in_local_day": 276,
+      "calendar_timezone": "America/Los_Angeles",
+      "calendar_nonexistent_clock_labels": [
+        "02:00",
+        "02:05",
+        "02:10",
+        "02:15",
+        "02:20",
+        "02:25",
+        "02:30",
+        "02:35",
+        "02:40",
+        "02:45",
+        "02:50",
+        "02:55"
+      ],
+      "calendar_ambiguous_clock_labels": [],
+      "blank_counts": {
+        "Day ahead forecast": 12,
+        "Hour ahead forecast": 12,
+        "Current demand": 12,
+        "Demand response": 289
+      },
+      "blank_load_clocks_match_nonexistent_hour": true,
+      "utc_offset_or_fold_column_present": false,
+      "revision_or_publication_time_column_present": false,
+      "disposition": "Blank load clocks match nonexistent local hour; do not label as service omissions",
+      "window_availability_estimated": false
+    }
+  ]
+}

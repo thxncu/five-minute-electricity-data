@@ -1,0 +1,81 @@
+{
+  "calibration_start": "2024-07-01 00:00:00",
+  "calibration_end": "2025-12-31 23:55:00",
+  "heldout_start": "2026-01-01 00:00:00",
+  "heldout_end": "2026-06-30 23:55:00",
+  "fields": [
+    "supply_capacity_mw",
+    "current_demand_mw",
+    "operating_reserve_mw"
+  ],
+  "centers_mw": {
+    "supply_capacity_mw": -2.1999999999970896,
+    "current_demand_mw": -12.60000000000582,
+    "operating_reserve_mw": 1.8999999999996362
+  },
+  "mad_scales_mw": {
+    "supply_capacity_mw": 44.62626000000863,
+    "current_demand_mw": 274.7257799999935,
+    "operating_reserve_mw": 262.42019999999997
+  },
+  "primary_calibration_quantile": 0.999,
+  "primary_score_threshold": 5.613336168480908,
+  "maximum_between_flag_gap_to_group_minutes": 30,
+  "calibration_eligible_changes": 156913,
+  "heldout_eligible_changes": 51548,
+  "calibration_flags": 157,
+  "heldout_flags": 93,
+  "calibration_flags_per_1000_eligible": 1.000554447368924,
+  "heldout_flags_per_1000_eligible": 1.8041437107162257,
+  "all_change_clusters": 245,
+  "heldout_clusters": 91,
+  "contextual_interval_points": 11,
+  "detected_case_bracket_points": 3,
+  "detected_case_intersection_with_contextual_points": 3,
+  "contextual_points_outside_detected_bracket": 8,
+  "detected_case_start": "2026-06-30 16:35:00",
+  "detected_case_end": "2026-06-30 16:45:00",
+  "june30_flag_timestamps": [
+    "2026-06-30 16:35:00",
+    "2026-06-30 16:45:00"
+  ],
+  "threshold_sensitivity": [
+    {
+      "calibration_quantile": 0.995,
+      "score_threshold": 3.76447931600812,
+      "calibration_change_flags": 785,
+      "heldout_change_flags": 383,
+      "all_clusters": 1140,
+      "calibration_clusters": 773,
+      "heldout_clusters": 367,
+      "june30_cluster_start": "2026-06-30 16:35:00",
+      "june30_cluster_end": "2026-06-30 16:45:00",
+      "june30_context_change_flags": 2
+    },
+    {
+      "calibration_quantile": 0.999,
+      "score_threshold": 5.613336168480908,
+      "calibration_change_flags": 157,
+      "heldout_change_flags": 93,
+      "all_clusters": 245,
+      "calibration_clusters": 154,
+      "heldout_clusters": 91,
+      "june30_cluster_start": "2026-06-30 16:35:00",
+      "june30_cluster_end": "2026-06-30 16:45:00",
+      "june30_context_change_flags": 2
+    },
+    {
+      "calibration_quantile": 0.9995,
+      "score_threshold": 6.319513208205635,
+      "calibration_change_flags": 79,
+      "heldout_change_flags": 52,
+      "all_clusters": 127,
+      "calibration_clusters": 76,
+      "heldout_clusters": 51,
+      "june30_cluster_start": "2026-06-30 16:35:00",
+      "june30_cluster_end": "2026-06-30 16:45:00",
+      "june30_context_change_flags": 2
+    }
+  ],
+  "limitations": "This review screen detects coincident changes, not a persistent level change or a physical/data fault. The 30-minute grouping convention brackets flagged changes and does not estimate event recovery. No labelled normal-event set is available, so the flag rate is review burden, not false-alarm rate. Calibration is temporally separate but retrospective; no prospective performance is claimed."
+}

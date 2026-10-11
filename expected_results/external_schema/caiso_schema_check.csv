@@ -1,0 +1,4 @@
+date,published_data_rows,distinct_clock_labels,expected_five_minute_slots_in_local_day,blank_current_demand,nonexistent_clock_labels,ambiguous_clock_labels,disposition
+2024-07-01,289,288,288,0,0,0,Explicit boundary and timestamp convention required before UTC window audit
+2024-11-03,289,288,300,0,0,12,Repeated-hour offset unresolved; defer UTC window audit
+2025-03-09,289,288,276,12,12,0,Blank load clocks match nonexistent local hour; do not label as service omissions

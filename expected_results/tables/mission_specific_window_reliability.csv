@@ -1,0 +1,31 @@
+mission_code,mission,ambiguity_policy,window_minutes,eligible_decision_times,available_decision_times,unavailable_decision_times,mission_reliability_pct,mission_unavailability_pct,longest_unavailable_run_minutes,longest_run_start,longest_run_end
+cadence_delivery,Cadence delivery,All observed records,5,210240,209323,917,99.56383181126331,0.4361681887366819,40,2025-05-29 22:25:00,2025-05-29 23:00:00
+cadence_delivery,Cadence delivery,All observed records,10,210239,208461,1778,99.15429582522748,0.8457041747725208,45,2025-05-29 22:25:00,2025-05-29 23:05:00
+cadence_delivery,Cadence delivery,All observed records,15,210238,207606,2632,98.74808550309649,1.2519144969035092,50,2025-05-29 22:25:00,2025-05-29 23:10:00
+cadence_delivery,Cadence delivery,All observed records,30,210235,205079,5156,97.54750636192831,2.4524936380716817,135,2025-05-29 21:15:00,2025-05-29 23:25:00
+cadence_delivery,Cadence delivery,All observed records,60,210229,200153,10076,95.20713127113767,4.792868728862336,165,2025-05-29 21:15:00,2025-05-29 23:55:00
+forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,5,210240,209198,1042,99.50437595129375,0.4956240487062405,375,2026-02-27 00:00:00,2026-02-27 06:10:00
+forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,10,210239,208332,1907,99.09293708588797,0.9070629141120344,380,2026-02-27 00:00:00,2026-02-27 06:15:00
+forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,15,210238,207473,2765,98.68482386628487,1.3151761337151229,385,2026-02-27 00:00:00,2026-02-27 06:20:00
+forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,30,210235,204934,5301,97.47853592408495,2.5214640759150475,400,2026-02-27 00:00:00,2026-02-27 06:35:00
+forecast_planning,Forecast planning,Other reserve-field flags do not invalidate this mission,60,210229,199984,10245,95.12674274243801,4.873257257561992,430,2026-02-27 00:00:00,2026-02-27 07:05:00
+reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,5,210240,209297,943,99.55146499238965,0.4485350076103501,55,2026-06-30 16:20:00,2026-06-30 17:10:00
+reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,10,210239,208431,1808,99.14002635096247,0.8599736490375239,60,2026-06-30 16:20:00,2026-06-30 17:15:00
+reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,15,210238,207572,2666,98.73191335534014,1.2680866446598615,65,2026-06-30 16:20:00,2026-06-30 17:20:00
+reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,30,210235,205033,5202,97.52562608509525,2.4743739149047492,135,2025-05-29 21:15:00,2025-05-29 23:25:00
+reserve_stage_permissive,Reserve-stage monitoring (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,60,210229,200086,10143,95.17526126271827,4.824738737281726,165,2025-05-29 21:15:00,2025-05-29 23:55:00
+reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,5,210240,207987,2253,98.92836757990867,1.071632420091324,505,2026-04-09 13:10:00,2026-04-09 21:30:00
+reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,10,210239,207025,3214,98.471263657076,1.5287363429240055,525,2026-04-09 12:55:00,2026-04-09 21:35:00
+reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,15,210238,206089,4149,98.02652232232042,1.9734776776795822,530,2026-04-09 12:55:00,2026-04-09 21:40:00
+reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,30,210235,203348,6887,96.72414203153615,3.275857968463862,545,2026-04-09 12:55:00,2026-04-09 21:55:00
+reserve_stage_strict,Reserve-stage monitoring (strict),Semantic ambiguity breaks the mission window,60,210229,198067,12162,94.21487996422948,5.785120035770517,575,2026-04-09 12:55:00,2026-04-09 22:25:00
+full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,5,210240,209172,1068,99.4920091324201,0.5079908675799087,375,2026-02-27 00:00:00,2026-02-27 06:10:00
+full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,10,210239,208302,1937,99.07866761162296,0.9213323883770376,380,2026-02-27 00:00:00,2026-02-27 06:15:00
+full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,15,210238,207439,2799,98.66865171852852,1.3313482814714752,385,2026-02-27 00:00:00,2026-02-27 06:20:00
+full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,30,210235,204888,5347,97.45665564725189,2.5433443527481154,400,2026-02-27 00:00:00,2026-02-27 06:35:00
+full_service_permissive,Full-service use (permissive),Reserve-nesting ambiguity may be consumed only with an explicit flag,60,210229,199917,10312,95.09487273401862,4.905127265981382,430,2026-02-27 00:00:00,2026-02-27 07:05:00
+full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,5,210240,207862,2378,98.8689117199391,1.1310882800608828,505,2026-04-09 13:10:00,2026-04-09 21:30:00
+full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,10,210239,206896,3343,98.40990491773648,1.5900950822635194,525,2026-04-09 12:55:00,2026-04-09 21:35:00
+full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,15,210238,205956,4282,97.9632606855088,2.036739314491196,530,2026-04-09 12:55:00,2026-04-09 21:40:00
+full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,30,210235,203203,7032,96.65517159369277,3.344828406307228,545,2026-04-09 12:55:00,2026-04-09 21:55:00
+full_service_strict,Full-service use (strict),Only passed-within-coverage points satisfy the mission,60,210229,197898,12331,94.13449143552984,5.865508564470173,575,2026-04-09 12:55:00,2026-04-09 22:25:00

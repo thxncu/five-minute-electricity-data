@@ -1,0 +1,17 @@
+subset,policy,eligible_subset_n,n_scored,mae_mw,rmse_mw,mape_pct
+common_intersection,raw,47663,47663,609.2863431895164,873.4833822376395,0.9966859683634757
+common_intersection,strict,47663,47663,614.6933678258025,879.2263650177405,1.0067246623970831
+common_intersection,permissive,47663,47663,611.5325880689228,879.3012845047467,1.000844148872442
+common_intersection,causal_imputation,47663,47663,606.7725682568025,874.9428007452084,0.9937008936071344
+permissive_additional_to_strict,raw,790,790,692.0418395480934,1007.9504009177107,0.9355274984016563
+permissive_additional_to_strict,strict,790,0,,,
+permissive_additional_to_strict,permissive,790,790,722.1851328437217,1057.027815667246,0.9758761255589589
+permissive_additional_to_strict,causal_imputation,790,790,723.6580440577859,1045.6289471225457,0.9773165706270518
+raw_excluded_by_permissive,raw,172,172,758.9151071336635,1308.7810350185653,1.1371878949359373
+raw_excluded_by_permissive,strict,172,0,,,
+raw_excluded_by_permissive,permissive,172,0,,,
+raw_excluded_by_permissive,causal_imputation,172,172,477.4008857233276,733.4242177035068,0.7058351213462618
+imputation_additional_to_permissive,raw,3365,172,758.9151071336635,1308.7810350185653,1.1371878949359373
+imputation_additional_to_permissive,strict,3365,0,,,
+imputation_additional_to_permissive,permissive,3365,0,,,
+imputation_additional_to_permissive,causal_imputation,3365,3365,561.8052005836128,842.0172585944092,0.8536021071289267
