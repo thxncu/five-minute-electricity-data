@@ -1,0 +1,57 @@
+{
+  "provider": "California Independent System Operator",
+  "dataset": "Today’s Outlook demand chart CSV",
+  "files": [
+    {
+      "date": "2024-07-01",
+      "filename": "demand_2024-07-01.csv",
+      "url": "https://www.caiso.com/outlook/history/20240701/demand.csv",
+      "retrieved_at_utc": "2026-10-11T03:08:23.277457+00:00",
+      "sha256": "179646e679a50d2b5253d25124e803c2ab23cdba9a2c06f699a3f17262dcd0f3",
+      "bytes": 7590,
+      "http_status": 200,
+      "http_content_type": "text/csv",
+      "http_last_modified": "Wed, 11 Dec 2024 19:01:57 GMT",
+      "content_description": "Today’s Outlook chart values; numeric demand and forecast quantities in MW",
+      "timezone_metadata": "CSV has HH:MM only. Publisher page displays PT; America/Los_Angeles is the explicitly declared calendar interpretation. No per-record UTC offset, fold indicator, issue time or revision identifier is supplied."
+    },
+    {
+      "date": "2024-11-03",
+      "filename": "demand_2024-11-03.csv",
+      "url": "https://www.caiso.com/outlook/history/20241103/demand.csv",
+      "retrieved_at_utc": "2026-10-11T03:08:23.358989+00:00",
+      "sha256": "3c652de1ca25d33f88e3e91b3e60d56e7f2c1f81d26b3f9bb56c626e1b8d1b5b",
+      "bytes": 7590,
+      "http_status": 200,
+      "http_content_type": "text/csv",
+      "http_last_modified": "Wed, 11 Dec 2024 19:02:37 GMT",
+      "content_description": "Today’s Outlook chart values; numeric demand and forecast quantities in MW",
+      "timezone_metadata": "CSV has HH:MM only. Publisher page displays PT; America/Los_Angeles is the explicitly declared calendar interpretation. No per-record UTC offset, fold indicator, issue time or revision identifier is supplied."
+    },
+    {
+      "date": "2025-03-09",
+      "filename": "demand_2025-03-09.csv",
+      "url": "https://www.caiso.com/outlook/history/20250309/demand.csv",
+      "retrieved_at_utc": "2026-10-11T03:08:23.325004+00:00",
+      "sha256": "d9d4f7835c4322837cbd7f136d8bbd01909b26b5df193420400e78a4466afa97",
+      "bytes": 7410,
+      "http_status": 200,
+      "http_content_type": "text/csv",
+      "http_last_modified": "Wed, 12 Mar 2025 23:21:51 GMT",
+      "content_description": "Today’s Outlook chart values; numeric demand and forecast quantities in MW",
+      "timezone_metadata": "CSV has HH:MM only. Publisher page displays PT; America/Los_Angeles is the explicitly declared calendar interpretation. No per-record UTC offset, fold indicator, issue time or revision identifier is supplied."
+    }
+  ],
+  "documentation": [
+    {
+      "url": "https://www.caiso.com/todays-outlook",
+      "use": "MW units; current demand and hour-ahead forecast are five-minute averages, day-ahead forecast hourly average; PT display; informational purposes and revision disclaimer"
+    },
+    {
+      "url": "https://www.caiso.com/theme/js/outlook/outlook.js",
+      "use": "Publisher chart code identifies /outlook/history/YYYYMMDD/demand.csv and comments reference Pacific Time; no CSV UTC offsets are supplied"
+    }
+  ],
+  "selection": "One ordinary date and the Pacific daylight-saving transition dates within the KPX study interval. Purposeful schema stress cases, not a random or representative sample.",
+  "limitations": "Retrieval snapshots may differ from publication-time versions. The audit does not infer a service outage or estimate regional window availability."
+}
