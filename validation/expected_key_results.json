@@ -1,0 +1,22 @@
+{
+  "observed_rows": 209323,
+  "expected_rows": 210240,
+  "missing_rows": 917,
+  "missing_share_pct": 0.4361681887366819,
+  "missing_episodes": 861,
+  "severe_candidate_records": 9,
+  "severe_candidate_segments": 3,
+  "candidate_severe_minutes": 45,
+  "supply_identity_failures": 6,
+  "zero_forecast_records": 125,
+  "reserve_nesting_level_violations": 1316,
+  "reserve_nesting_rate_violations": 1173,
+  "share_level_violations_16_19_59_pct": 64.05775075987842,
+  "june30_supply_capacity_change_mw": -17460.5,
+  "june30_supply_reserve_change_mw": -17453.53,
+  "june30_reported_demand_change_mw": -7.2,
+  "june30_identity_implied_demand_change_mw": -6.97,
+  "june30_balance_residual_change_mw": -0.23,
+  "sixty_minute_unavailable_share_pct": 4.792868728862336,
+  "sixty_minute_longest_blind_run_minutes": 165
+}
