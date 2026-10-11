@@ -2,12 +2,6 @@
 
 **Assessing the fitness for use of public electricity data across consumer policies and observation windows**
 
-**Supplementary Material 2**  
-**Author and corresponding author:** Chankook Park  
-**Affiliation:** Division of Climate Change, Hankuk University of Foreign Studies, Global Campus  
-**Address:** 81 Oedae-ro, Mohyeon-eup, Cheoin-gu, Yongin-si, Gyeonggi-do 17035, Republic of Korea  
-**Email:** ctrend@hufs.ac.kr  
-
 The package accompanies the article and Supplementary Material 1. It supplies source records, executable analyses and numerical reference results for the quality audit, consumer policies, observation windows, retrospective demand forecasting, temporal models, change screening and external clock-schema demonstration. Detailed tables and equations are in Supplementary Material 1.
 
 ## Environment and execution
